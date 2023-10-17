@@ -13,7 +13,9 @@ public class CreateBullet : MonoBehaviour
         
     }
 
-    void Update()
+    int timer=0;
+
+    void FixedUpdate()
     {
         if(Input.GetButton("Shot"))
         {
